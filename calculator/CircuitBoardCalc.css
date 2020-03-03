@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-variant-ligatures: none;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    background-color: #7AC471;
+
+}
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    margin-right:auto;
+    margin-left:auto;
+    width: 1200px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#calcBox {
+    margin:0px;
+    padding:0px;
+    margin-top: 100px;
+    text-align: center;
+}
+.calcBacker {
+    margin:0px;
+    padding:0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#closeApp {
+    width: 64px;
+    margin-left: 472px;
+    position: relative;
+    z-index: 100;
+}
+#calculator {
+    position: relative;
+    z-index: 55;
+    display: block;
+    max-height: 702px;
+    filter: drop-shadow(-25px 25px 10px #152D18);
+    margin-top: -48px;
+    margin-left: 335px;
+
+}
+#calcScreen1 {
+    width:411px;
+    height:97px;
+    background-color: #808184;
+    color:#66f539;
+    border-radius: 8px;
+    position: relative;
+    z-index: 66;
+    display: block;
+    margin-top: -654px;
+    margin-left: 387px;
+    margin-right: 53px;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    font-size: 50px;
+    border: 0px solid #808184;
+}
+#calcScreen2 {
+    width:411px;
+    height:97px;
+    background-color: #808184;
+    color:#66f539;
+    border-radius: 8px;
+    position: relative;
+    z-index: 66;
+    display: block;
+    margin-top: 38px;
+    margin-left: 387px;
+    margin-right: 53px;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    font-size: 50px;
+    border: 0px solid #808184;
+}
+#calcScreen3 {
+    width:411px;
+    height:97px;
+    background-color: #808184;
+    color:#66f539;
+    border-radius: 8px;
+    position: relative;
+    z-index: 66;
+    display: block;
+    margin-top: 147px;
+    margin-left: 387px;
+    margin-right: 53px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 50px;
+    border: 0px solid #808184;
+    font-weight: 400;
+}
+.buttonGrid {
+    margin-top:46px;
+    margin-left: 427px;
+    margin-right: 51px;
+    max-width: 335px;
+    text-align: center;
+    position: relative;
+    z-index: 85;
+    overflow: hidden;
+
+}
+.spacer {
+    margin-right: 13px;
+}
+.button {
+    position: relative;
+    z-index: 80;
+    float: left;
+    width: 74px;
+    height: 74px;
+    border-radius:50%;
+}
+
+.calcSwop .calcAppAfter {
+    display:none;
+}
+.calcSwop:hover  .calcAppBefore {
+    display:none;
+
+}
+.calcSwop:hover  .calcAppAfter {
+    display:block;
+
+}
+img.calcAppAfter,
+img.calcAppBefore  {
+    width:240px;
+    height:240px;
+    margin-left:500px;
+    margin-right:500px;
+    margin-top: 200px;
+    filter: drop-shadow(-16px 16px 8px #152D18);
+}
+
+
+
+#add .after, 
+#subtract .after, 
+#multiply .after, 
+#divide .after,
+#equals .after {
+    display:none;
+}
+#add:hover  .before,
+#subtract:hover  .before,
+#multiply:hover  .before,
+#divide:hover  .before,
+#equals:hover  .before {
+    display:none;
+
+}
+#add:hover .after,
+#subtract:hover .after,
+#multiply:hover .after,
+#divide:hover .after,
+#equals:hover .after{
+    display:block;
+}
+
+#equals {
+    margin-top:42px;
+    margin-left:558px;
+    margin-right:558px;
+    text-align: center;
+    position: relative;
+    z-index: 85;
+    border: 0px solid #808184;
+}
+
